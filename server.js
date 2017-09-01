@@ -20,13 +20,13 @@ var articles={
             This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.
         </p>   `
 },
-  'articleTwo':{ title:'Article-two|Praveen Bellary',
+  'article-two':{ title:'Article-two|Praveen Bellary',
     date:'Sep 1,2017',
     heading:'Article-two',
     content:`  <p>
             This is my Second Article.
           `},
-  'articleThree':{title:'Article-two|Praveen Bellary',
+  'article-three':{title:'Article-two|Praveen Bellary',
     date:'Sep 1,2017',
     heading:'Article-two',
     content:`  <p>
