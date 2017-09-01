@@ -31,7 +31,7 @@ var articles={
     heading:'Article-two',
     content:`  <p>
             This is my Second Article.
-          `},
+          `}
 };
 
 function createTemplate(data){
