@@ -26,11 +26,11 @@ var articles={
     content:`  <p>
             This is my Second Article.
           `},
-  'article-three':{title:'Article-two|Praveen Bellary',
+  'article-three':{title:'Article-three|Praveen Bellary',
     date:'Sep 1,2017',
-    heading:'Article-two',
+    heading:'Article-three',
     content:`  <p>
-            This is my Second Article.
+            This is my Third Article.
           `}
 };
 
