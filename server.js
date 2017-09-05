@@ -59,7 +59,7 @@ function hash(input,salt){
 }
 
 app.get('/hash/:input',function(req,res){
-var hashedString = hash(req.params.input,salt);
+var hashedString = hash(req.params.input,'this-is-something-related-to-cipher');
 res.send(hashedString);
 });
 
