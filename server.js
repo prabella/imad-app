@@ -14,37 +14,6 @@ var config={
 var app=express();
 app.use(morgan('combined'));
 
-
-
-var articles={
-  'article-one':{
-    title:'Article-one|Praveen Bellary',
-    date:'Sep 1,2017',
-    heading:'Article-one',
-    content:`  <p>
-            This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.
-        </p>   
-         <p>
-            This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.
-        </p>   
-         <p>
-            This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.This is my first Article.
-        </p>   `
-},
-  'article-two':{ title:'Article-two|Praveen Bellary',
-    date:'Sep 1,2017',
-    heading:'Article-two',
-    content:`  <p>
-            This is my Second Article.
-         </p>  `},
-  'article-three':{title:'Article-three|Praveen Bellary',
-    date:'Sep 1,2017',
-    heading:'Article-three',
-    content:`  <p>
-            This is my Third Article.
-          </p> `}
-};
-
 function createTemplate(data){
 var title=data.title;
 var date = data.date;
