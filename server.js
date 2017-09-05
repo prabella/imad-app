@@ -8,7 +8,7 @@ var config={
     database:'praveenbellaryp',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password:'db-praveenbellaryp-13564'
+    password:process.env.DB_PASSWORD
     };
 
 var app=express();
